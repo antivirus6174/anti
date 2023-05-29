@@ -1,0 +1,219 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+/*navbar*/
+nav{
+	background-color: black;
+	position: absolute;
+	top: 0;
+	width: 45%;
+}
+
+nav img{
+	width: 50%;
+}
+
+nav ul{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 1.5rem;
+	border-bottom: 1px solid white;
+	margin-left: 3%;
+}
+
+nav ul li{
+	padding: 0px 25px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+
+
+/*droper*/
+#droper{
+	height: 100vh;
+	background-color: black;
+	color: white;
+}
+
+/*droper2*/
+#droper2{
+	height: 100vh;
+}
+
+/*droper1*/
+#droper1{
+	height: 100vh;
+}
+#droper1 h1{
+	font-family: 'Permanent Marker', cursive;
+	font-size: 5rem;
+	padding-left: 10%;
+}
+
+#droper p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9rem;
+	font-weight: 500;
+	padding:0px 0px 30px 0px;
+	padding-left: 10%;
+}
+
+#pos{
+	position: relative;
+	padding-bottom: 10%;
+	left: 10%;
+}
+#pos1 h3{
+	color: black;
+	font-size: 1.3rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+#pos1{
+	position: absolute;
+	top:10px ;
+	left:10px;
+}
+
+
+#cos{
+	position: relative;
+}
+#cos1 i{
+	font-size: 1.4rem;
+	color: black;
+}
+#cos1{
+	position: absolute;
+	top: 60%;
+	left: 7%;
+}
+
+.bi-facebook,.bi-twitter,.bi-instagram{
+	padding-left:18px;
+}
+
+
+
+@media only screen and (max-width: 1024px){
+	nav ul{
+		font-size: 1.2rem;
+	}
+	#droper h1{
+		font-size: 3.4rem;
+	}
+	#droper p{
+		padding-top: 10px;
+		font-size: 0.8rem;
+	}
+	#pos1 h3{
+		font-size: 1rem;
+	}
+	#cos i{
+		font-size: 1.2rem;
+	}
+}
+@media only screen and (max-width: 768px){
+	nav{
+		width: 100%;
+	}
+	nav ul{
+		border: none;
+		margin-left: 2%;
+	}
+	nav ul li{
+		font-weight: 400;
+		border-bottom: 1px solid whitesmoke;
+	}
+	#droper h1{
+		font-size: 3.5rem;
+		padding-left: 6%;
+	}
+	#droper p{
+		padding: 10px 0px 20px 0px;
+		font-size: 0.8rem;
+		padding-left: 6%;
+	}
+	#pos img{
+		width: 20% !important;
+	}
+	#pos{
+		padding: 0px 0px 60px 0px;
+		left: 0;
+		padding-left: 6%;
+	}
+	#pos1{
+		top:10%;
+		left: 7%;
+	}
+	#cos img{
+		width: 32% !important;
+		height: auto;
+	}
+	#cos i{
+		font-size: 1rem;
+	}
+	#cos1{
+		top: 60%;
+		left: 4%;
+	}
+	#droper2{
+		display: none !important;
+	}
+}
+@media only screen and (max-width: 576px){
+	#droper1 h1{
+		font-size: 3rem;
+	}
+	#droper1 p{
+		font-size: 0.6rem;
+	}
+	#pos img{
+		width: 40% !important;
+	}
+	#cos img{
+		width: 55% !important;
+	}
+}
+@media only screen and (max-width: 320px){
+	#droper1 h1{
+		font-size: 2.5rem;
+	}
+	#droper1 p{
+		font-size: 0.5rem;
+	}
+	#pos1 h3{
+		font-size: 0.9rem;
+	}
+	#pos img{
+		width: 45% !important;
+	}
+	#cos img{
+		width: 70% !important;
+	}
+}
+@media only screen and (min-width:2100px) and (max-width:2600px){
+	nav ul{
+		font-size: 3rem;
+	}
+	#droper1 h1{
+		font-size: 10rem;
+	}
+	#droper1 p{
+		font-size: 1.5rem;
+	}
+	#pos1 h3{
+		font-size: 3rem;
+	}
+	#cos1 i{
+		font-size: 3rem;
+	}
+	.bi-facebook,.bi-twitter,.bi-instagram{
+		padding-left:35px;
+	}
+}
